@@ -1,6 +1,6 @@
-import { Inter, Fira_Mono } from "next/font/google";
+import {Fira_Mono } from "next/font/google";
 import Link from "next/link";
-import "./styles/notFound.css";
+import "@styles/notFound.css";
 
 const fira_mono = Fira_Mono({weight:"400",subsets:['latin',"cyrillic"]});
 
