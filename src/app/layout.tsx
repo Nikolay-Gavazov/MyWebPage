@@ -4,7 +4,7 @@ import "@styles/global.css";
 import Nav from "@components/Nav";
 import Footer from "@components/Footer";
 
-const lato = Lato({weight:"400", subsets: ["latin"] });
+const lato = Lato({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Nikolay Gavazov",
@@ -20,12 +20,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={lato.className}>
         <header>
-          <Nav/>
+          <Nav />
         </header>
-        <main className="app">
-        {children}
-        </main>
-          <Footer/>
+        <main className="app">{children}</main>
+        <Footer />
       </body>
     </html>
   );
