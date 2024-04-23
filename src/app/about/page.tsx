@@ -1,9 +1,13 @@
 export default function about() {
   return (
     <>
+    <header className="title flex flex-col items-center mb-5">
+        <h2 className="text-[#ffb000] text-4xl mb-1">About</h2>
+        <span className="w-24 h-1 bg-[#ffb000]"></span>
+    </header>
       <section>
         <header className="title flex justify-center">
-          <h2 className="text-[#ffb000] text-2xl">About Me</h2>
+          <h3 className="text-[#ffb000] text-xl">About Me</h3>
         </header>
         <main>
           <p>
