@@ -38,13 +38,7 @@ export default function about() {
             Football matches are a must-watch for me, and I never say no to a
             thrilling off-road adventure or a karting session.
           </p>
-        </main>
-      </section>
-      <section>
-        <header>
           <h3>My Toolbox</h3>
-        </header>
-        <main>
           <p>
             In my arsenal, I wield a variety of tools and technologies. From
             React, Next.js and Angular to Node.js and Express.js, I thrive on
@@ -55,19 +49,29 @@ export default function about() {
             bring my ideas to life, and for mobile app development, I rely on
             Ionic.
           </p>
-        </main>
-      </section>
-      <section>
-        <header>
           <h3>Experience Beyond Borders</h3>
-        </header>
-        <main>
           <p>
             With fluency in both English and German, I've had the privilege of
             working on projects that span across cultures and continents. My
             diverse experiences have not only enriched my skill set but also
             broadened my perspective on problem-solving and collaboration.
           </p>
+        </main>
+      </section>
+      <section>
+        <header>
+          
+        </header>
+        <main>
+          
+        </main>
+      </section>
+      <section>
+        <header>
+          
+        </header>
+        <main>
+          
         </main>
       </section>
       <section>
