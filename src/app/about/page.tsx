@@ -6,16 +6,37 @@ export default function about() {
         <span className="w-24 h-1 bg-[#ffb000]"></span>
     </header> */}
       <section>
-        <header className="title flex flex-col items-center mb-5">
-          <h2 className="text-[#ffb000] text-4xl mb-1">About Me</h2>
-          <span className="w-40 h-1 bg-[#ffb000]"></span>
-        </header>
+        <div className="flex items-center gap-24">
+          <div className="image-wrapper"></div>
+          <section>
+            <header className="title flex flex-col items-center mb-5">
+              <h2 className="text-[#ffb000] text-4xl mb-1">About Me</h2>
+              <span className="w-40 h-1 bg-[#ffb000]"></span>
+            </header>
+          </section>
+        </div>
+        
         <main>
           <p>
             Hey there! I'm Nikolay, a passionate software web developer with a
             knack for crafting innovative digital solutions.I find my
             inspiration in the dynamic world of technology and the boundless
             opportunities it offers.
+          </p>
+          <h3>A Bit About My Journey</h3>
+          <p>
+            Originally from Bulgaria, I've always been fascinated by the
+            intersection of mechanics and software. With a background in
+            Mechanical Engineering, I've honed my skills to marry the precision
+            of engineering with the creativity of web development.
+          </p>
+          <h3>My Passions</h3>
+          <p>
+            When I'm not immersed in lines of code, you'll likely find me
+            indulging in my hobbies. I have a deep love for cars, often spending
+            my weekends tinkering under the hood or hitting the open road.
+            Football matches are a must-watch for me, and I never say no to a
+            thrilling off-road adventure or a karting session.
           </p>
         </main>
       </section>
@@ -24,26 +45,15 @@ export default function about() {
           <h3>A Bit About My Journey</h3>
         </header>
         <main>
-          <p>
-            Originally from Bulgaria, I've always been fascinated by the
-            intersection of mechanics and software. With a background in
-            Mechanical Engineering, I've honed my skills to marry the precision
-            of engineering with the creativity of web development.
-          </p>
+          
         </main>
       </section>
       <section>
         <header>
-          <h3>My Passions</h3>
+          
         </header>
         <main>
-          <p>
-            When I'm not immersed in lines of code, you'll likely find me
-            indulging in my hobbies. I have a deep love for cars, often spending
-            my weekends tinkering under the hood or hitting the open road.
-            Football matches are a must-watch for me, and I never say no to a
-            thrilling off-road adventure or a karting session.
-          </p>
+          
         </main>
       </section>
       <section>
