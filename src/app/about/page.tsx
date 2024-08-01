@@ -56,29 +56,7 @@ export default function about() {
             diverse experiences have not only enriched my skill set but also
             broadened my perspective on problem-solving and collaboration.
           </p>
-        </main>
-      </section>
-      <section>
-        <header>
-          
-        </header>
-        <main>
-          
-        </main>
-      </section>
-      <section>
-        <header>
-          
-        </header>
-        <main>
-          
-        </main>
-      </section>
-      <section>
-        <header>
           <h3>Let's Connect</h3>
-        </header>
-        <main>
           <p>
             Whether you're looking to build a sleek web application, tackle a
             complex software challenge, or simply chat about cars and travel,
