@@ -1,7 +1,7 @@
 export default function about() {
   return (
     <>
-    {/* <header className="title flex flex-col items-center mb-5">
+      {/* <header className="title flex flex-col items-center mb-5">
         <h2 className="text-[#ffb000] text-4xl mb-1">About</h2>
         <span className="w-24 h-1 bg-[#ffb000]"></span>
     </header> */}
@@ -15,7 +15,7 @@ export default function about() {
             </header>
           </section>
         </div>
-        
+
         <main>
           <p>
             Hey there! I'm Nikolay, a passionate software web developer with a
