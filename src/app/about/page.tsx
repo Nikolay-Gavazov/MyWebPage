@@ -5,18 +5,15 @@ export default function about() {
         <h2 className="text-[#ffb000] text-4xl mb-1">About</h2>
         <span className="w-24 h-1 bg-[#ffb000]"></span>
     </header> */}
-      <section>
-        <div className="flex items-center gap-24">
-          <div className="image-wrapper"></div>
-          <section>
+      <section className="">
+        <div className="flex justify-center gap-24">
+          <div className="image-wrapper w-80 h-80"></div>
+          <section className="max-w-2xl">
             <header className="title flex flex-col items-center mb-5">
               <h2 className="text-[#ffb000] text-4xl mb-1">About Me</h2>
               <span className="w-40 h-1 bg-[#ffb000]"></span>
             </header>
-          </section>
-        </div>
-
-        <main>
+            <main>
           <p>
             Hey there! I'm Nikolay, a passionate software web developer with a
             knack for crafting innovative digital solutions.I find my
@@ -64,6 +61,8 @@ export default function about() {
             and let's embark on this exciting journey together!
           </p>
         </main>
+          </section>
+        </div>
       </section>
     </>
   );
