@@ -42,22 +42,6 @@ export default function about() {
       </section>
       <section>
         <header>
-          <h3>A Bit About My Journey</h3>
-        </header>
-        <main>
-          
-        </main>
-      </section>
-      <section>
-        <header>
-          
-        </header>
-        <main>
-          
-        </main>
-      </section>
-      <section>
-        <header>
           <h3>My Toolbox</h3>
         </header>
         <main>
