@@ -1,25 +1,27 @@
-.image-wrapper{
+.image-wrapper {
     animation: image 1s 1;
 }
 
-.content{
+.content {
     animation: content 1s 1;
 }
 
-@keyframes image{
-    0%{
+@keyframes image {
+    0% {
         transform: translateX(-100%);
     }
-    to{
+
+    to {
         transform: translateX(0);
     }
 }
 
-@keyframes content{
-    0%{
+@keyframes content {
+    0% {
         transform: translateX(100%);
     }
-    to{
+
+    to {
         transform: translateX(0);
     }
 }
