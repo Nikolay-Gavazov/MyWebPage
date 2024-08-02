@@ -1,6 +1,6 @@
 import Image from "next/image";
-import "@styles/about.css"
- 
+import "@styles/about.css";
+
 export default function about() {
   return (
     <>
@@ -32,7 +32,9 @@ export default function about() {
               </p>
               <div className="text-wrapper flex gap-8">
                 <div className="flex flex-col items-center flex-1">
-                  <h3 className="text-[#ffb000] mt-5">A Bit About My Journey</h3>
+                  <h3 className="text-[#ffb000] mt-5">
+                    A Bit About My Journey
+                  </h3>
                   <p className="text-white mt-5">
                     Originally from Bulgaria, I've always been fascinated by the
                     intersection of mechanics and software. With a background in
@@ -57,28 +59,30 @@ export default function about() {
                 <div className="flex flex-col items-center flex-1">
                   <h3 className="text-[#ffb000] mt-5">My Toolbox</h3>
                   <p className="text-white mt-5">
-                  In my arsenal, I wield a variety of tools and technologies. From
-                React, Next.js and Angular to Node.js and Express.js, I thrive
-                on the versatility of frameworks and languages like TypeScript
-                and Vanilla JavaScript. I'm adept at handling databases like
-                MongoDB and SQL Server, and I streamline my development process
-                with tools like Postman and GitHub. When it comes to design, I
-                turn to Figma to bring my ideas to life, and for mobile app
-                development, I rely on Ionic.
+                    In my arsenal, I wield a variety of tools and technologies.
+                    From React, Next.js and Angular to Node.js and Express.js, I
+                    thrive on the versatility of frameworks and languages like
+                    TypeScript and Vanilla JavaScript. I'm adept at handling
+                    databases like MongoDB and SQL Server, and I streamline my
+                    development process with tools like Postman and GitHub. When
+                    it comes to design, I turn to Figma to bring my ideas to
+                    life, and for mobile app development, I rely on Ionic.
                   </p>
                 </div>
                 <div className="flex flex-col items-center flex-1">
-                  <h3 className="text-[#ffb000] mt-5">Experience Beyond Borders</h3>
+                  <h3 className="text-[#ffb000] mt-5">
+                    Experience Beyond Borders
+                  </h3>
                   <p className="text-white mt-5">
-                  With fluency in both English and German, I've had the privilege
-                of working on projects that span across cultures and continents.
-                My diverse experiences have not only enriched my skill set but
-                also broadened my perspective on problem-solving and
-                collaboration.
+                    With fluency in both English and German, I've had the
+                    privilege of working on projects that span across cultures
+                    and continents. My diverse experiences have not only
+                    enriched my skill set but also broadened my perspective on
+                    problem-solving and collaboration.
                   </p>
                 </div>
               </div>
-            
+
               <h3 className="text-[#ffb000] mt-5 text-center">Let's Connect</h3>
               <p className="text-white mt-5">
                 Whether you're looking to build a sleek web application, tackle
