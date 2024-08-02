@@ -5,7 +5,7 @@ export default function about() {
   return (
     <>
       <section className="">
-        <div className="flex justify-center gap-36">
+        <div className="about-wrapper flex justify-center gap-36">
           <div className="image-wrapper h-80 w-80  relative mt-20">
             <div className="image-border h-80 w-80 absolute top-8 left-8 border-8 rounded-xl -z-50 border-[#ffb000]"></div>
             <div className="h-80 w-80 overflow-hidden rounded-xl">
