@@ -38,3 +38,17 @@
         margin:3em auto;
     }
 }
+
+@media (max-width:460px){
+    .about-wrapper{
+        padding: 0 1em;
+    }
+    .text-wrapper{
+        flex-direction: column;
+        gap:0;
+    }
+    .image-wrapper{
+        width: 240px;
+        height: 240px;
+    }
+}
