@@ -10,19 +10,23 @@
   box-sizing: border-box;
 }
 
+body, html{
+  max-width: 1920px;
+  overflow-x: hidden;
+}
+
 body {
-  display: flex;
-  flex-direction: column;
+  min-height: 100vh;
+  margin: 0 auto;
   background: linear-gradient(-45deg, #8d00ff, #5906ff, #002349, #023d5f,#1490d6, #0bcbd4);
   background-size: 400% 400%;
+  display: flex;
   animation: gradient 15s ease infinite;
-  height: 100vh;
-  overflow: hidden;
+  flex-direction: column;
 }
 
 .app{
-  height: 100vh;
-  overflow-y: scroll;
+  height: inherit;
 }
 
 .active{
@@ -47,7 +51,7 @@ body {
 #stars:after {
   content: " ";
   position: absolute;
-  top: 2000px;
+  top: 100px;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -63,7 +67,7 @@ body {
 #stars2:after {
   content: " ";
   position: absolute;
-  top: 2000px;
+  top: 100px;
   width: 2px;
   height: 2px;
   background: transparent;
@@ -79,7 +83,7 @@ body {
 #stars3:after {
   content: " ";
   position: absolute;
-  top: 2000px;
+  top: 100px;
   width: 3px;
   height: 3px;
   background: transparent;
@@ -89,7 +93,7 @@ body {
 
 @keyframes animStar {
   from {
-    transform: translateY(0px);
+    transform: translateY(0);
   }
   to {
     transform: translateY(-2000px);
@@ -277,4 +281,36 @@ body {
   100% {
     opacity: 0.7;
   }
+}
+
+
+@media (max-width:460px) {
+  .app .welcome .box{
+    width: 350px;
+    height: 350px;
+  }
+
+  .app .welcome .box h1{
+    font-size: 32px;
+  }
+  .footer-container{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-track{
+  background: linear-gradient(#002349, #023d5f,#1490d6);
+}
+
+::-webkit-scrollbar-thumb{
+  background: #ffb000;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background:#e9d856
 }
