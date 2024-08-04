@@ -22,7 +22,13 @@ export default function RootLayout({
         <header>
           <Nav />
         </header>
-        <main className="app">{children}</main>
+        <main className="app flex flex-col flex-1">{children}
+        <div className="w-full h-full">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+      </div>
+        </main>
         <Footer />
       </body>
     </html>
