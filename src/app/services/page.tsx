@@ -1,5 +1,14 @@
 export default function services (){
     return(
-        <div>Services page</div>
+        <>
+            <section className="services-page">
+                <header>
+
+                </header>
+                <main>
+                    
+                </main>
+            </section>
+        </>
     )
 };
