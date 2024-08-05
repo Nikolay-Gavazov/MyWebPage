@@ -19,11 +19,9 @@ export default function about() {
             </div>
           </div>
           <section className="content max-w-3xl">
-            <header className="title flex flex-col items-center">
               <h2 className="text-[#ffb000] text-4xl mb-1">About Me</h2>
               <span className="w-40 h-1 bg-[#ffb000]"></span>
-            </header>
-            <main>
+
               <p className="text-white text-center mt-5">
                 Hey there! I'm Nikolay, a passionate software web developer with
                 a knack for crafting innovative digital solutions.I find my
@@ -90,7 +88,6 @@ export default function about() {
                 travel, I'm always up for a stimulating conversation. Feel free
                 to reach out and let's embark on this exciting journey together!
               </p>
-            </main>
           </section>
         </div>
       </section>
