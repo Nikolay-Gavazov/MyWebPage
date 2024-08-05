@@ -4,7 +4,7 @@ import "@styles/about.css";
 export default function about() {
   return (
     <>
-      <section className="">
+      <section className="about-page">
         <div className="about-wrapper flex justify-center gap-36">
           <div className="image-wrapper h-80 w-80  relative mt-20">
             <div className="image-border w-full	h-full absolute top-8 left-8 border-8 rounded-xl -z-50 border-[#ffb000]"></div>
