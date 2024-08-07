@@ -7,10 +7,10 @@ export default function about() {
       <section className="about-page">
         <div className="about-wrapper flex justify-center gap-36">
           <div className="image-wrapper h-80 w-80  relative mt-20">
-            <div className="image-border w-full	h-full absolute top-8 left-8 border-8 rounded-xl -z-50 border-[#ffb000]"></div>
+            <div className="image-border w-full	h-full absolute top-8 left-8 border-8 rounded-xl z-10 border-[#ffb000]"></div>
             <div className="w-full h-full overflow-hidden rounded-xl">
               <Image
-                className="opacity-100"
+                className="relative z-20"
                 width={320}
                 height={320}
                 src="/assets/images/IMG_0240.jpg"
@@ -19,8 +19,8 @@ export default function about() {
             </div>
           </div>
           <section className="content max-w-3xl">
-              <h2 className="text-[#ffb000] text-4xl mb-1">About Me</h2>
-              <span className="w-40 h-1 bg-[#ffb000]"></span>
+              <h1 className="text-[#ffb000] text-4xl mb-1 text-center">About Me</h1>
+              <span className="flex m-auto w-40 h-1 bg-[#ffb000]"></span>
 
               <p className="text-white text-center mt-5">
                 Hey there! I'm Nikolay, a passionate software web developer with
