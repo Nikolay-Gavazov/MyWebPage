@@ -2,40 +2,39 @@ import "@styles/services.css";
 
 const services = [
   {
-    icon: "�",
-    title: "Project Management",
+    number: "01",
+    title: "Product Management",
     description:
-      "I can lead the entire project lifecycle from the first discussion and requirements gathering to delivery, deployment, and long-term support.",
+      "From the first conversation to a clear plan, I guide the work around the product's goals, scope, and delivery.",
     points: [
-      "Project planning",
+      "Project management",
       "Requirement engineering",
-      "Scope and timeline alignment",
-      "Stakeholder communication",
+      "Project discovery and scope",
+      "Planning and coordination",
     ],
   },
   {
-    icon: "⚙️",
+    number: "02",
     title: "Development & Architecture",
     description:
-      "I design and build solutions from concept to production with a strong focus on software architecture, maintainability, and scalable engineering.",
+      "I turn requirements into maintainable software, choosing an architecture and technologies that fit the product.",
     points: [
+      "Product development",
       "Software architecture",
-      "Docker containers",
+      "Docker and container technologies",
       "AI integrations",
-      "IoT and smart systems",
-      "Smart home solutions",
     ],
   },
   {
-    icon: "🚀",
+    number: "03",
     title: "Deploy & Support",
     description:
-      "I handle the full release cycle, including deployment, optimization, monitoring, and continuous support after launch.",
+      "I take the product through release and stay involved after launch, including connected and smart systems.",
     points: [
       "Deployment",
-      "Support",
-      "Maintaining production systems",
-      "Continuous improvement",
+      "Ongoing support and maintenance",
+      "IoT and smart home systems",
+      "Production improvements",
     ],
   },
 ];
@@ -45,7 +44,7 @@ export default function Services() {
     <section className="section-page">
       <div className="page-shell">
         <h1 className="page-heading">Services</h1>
-        <span className="page-divider"></span>
+        <span className="page-divider" aria-hidden="true"></span>
         <p className="page-intro">
           I am a product engineer and can handle everything from A to Z — from
           project definition and requirements to development, deployment, and
@@ -56,7 +55,7 @@ export default function Services() {
           {services.map((service) => (
             <article key={service.title} className="info-card">
               <div className="card-icon" aria-hidden="true">
-                {service.icon}
+                {service.number}
               </div>
               <h3>{service.title}</h3>
               <p>{service.description}</p>
