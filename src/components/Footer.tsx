@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="w-full flex justify-center">
       <div className="footer-container flex justify-center items-center gap-5 py-4 border-t-4 border-[#ffb000] w-11/12">
         <p className="text-lg font-semibolt text-[#ffb000]">
-          © Nikolay Gavazov 2024. All rights reserved.
+          © Nikolay Gavazov 2026. All rights reserved.
         </p>
         <div className="flex gap-2">
           <Link target="_blank" href={"https://github.com/Nikolay-Gavazov"}>
