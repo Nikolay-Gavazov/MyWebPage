@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 export const metadata = {
   title: "Home",
 };
@@ -20,6 +21,7 @@ export default function Home() {
           </div>
         </article>
       </section>
+      <Analytics />
     </>
   );
 }
