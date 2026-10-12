@@ -13,7 +13,7 @@ export default function about() {
                 className="relative z-20"
                 width={320}
                 height={320}
-                src="/assets/images/IMG_0240.jpg"
+                src="/assets/images/IMG.jpg"
                 alt="Nikolay Gavazov"
               />
             </div>
