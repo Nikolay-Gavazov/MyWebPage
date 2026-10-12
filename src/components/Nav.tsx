@@ -39,6 +39,7 @@ export default function Nav() {
             <NavLink
               key={item.href}
               href={item.href}
+              aria-current={pathname === item.href ? "page" : undefined}
               className={`text-lg font-semibold text-[#ffb000] transition-all duration-150 hover:text-xl link ${
                 pathname === item.href ? "active" : ""
               }`}
@@ -62,8 +63,9 @@ export default function Nav() {
 
         <button
           type="button"
-          aria-label="Toggle navigation menu"
+          aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
           aria-expanded={isOpen}
+          aria-controls="mobile-navigation"
           onClick={() => setIsOpen((prev) => !prev)}
           className="relative flex h-11 w-11 flex-col items-center justify-center gap-1.5 rounded-xl border border-[#ffb000]/60 bg-[#0f1b2c]/60 p-2.5 shadow-lg"
         >
@@ -86,13 +88,14 @@ export default function Nav() {
       </div>
 
       {isOpen && (
-        <div className="px-4 pb-4 lg:hidden flex justify-end">
+        <div id="mobile-navigation" className="px-4 pb-4 lg:hidden flex justify-end">
           <div className="w-[70%] mt-2 flex flex-col gap-2 rounded-2xl border border-[#ffb000]/50 bg-[#0f1b2c]/80 p-4 shadow-xl backdrop-blur-sm">
             {navItems.map((item) => (
               <NavLink
                 key={item.href}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
+                aria-current={pathname === item.href ? "page" : undefined}
                 className={`rounded-lg px-3 py-2 text-base font-semibold text-[#ffb000] transition-all duration-150 ${
                   pathname === item.href ? "bg-[#ffb000]/10" : ""
                 }`}
