@@ -16,7 +16,7 @@ export default function Home() {
 
           <div className="role">
             <div className="block"></div>
-            <p>Full Stack Web Developer</p>
+            <p>Product Engineer</p>
           </div>
         </article>
       </section>
